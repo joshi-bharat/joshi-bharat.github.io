@@ -17,3 +17,6 @@ redirect_from:
 * My research interests lie in the general area of robotics, particularly in marine robotics, simultaneous localization
 and mapping (SLAM), visual odometry as well as applications of deep learning based computer vision algorithms in robotics.
 * I received my Bachelor’s Degree from Tribhuvan University, [Pulchowk Campus](https://pcampus.edu.np/).
+
+# Recent News
+* July 21 2019. One paper accepted to IROS 2019. 
