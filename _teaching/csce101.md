@@ -11,13 +11,7 @@ offerings:
  - Spring 2020
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+Worked as an instructor teaching classes, leading lab sections, developing and grading assignments, developing new lab
+sessions, anf holding office hours.
 
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+[Course Website](https://cse.sc.edu/~bjoshi/csce101/csce101.html)
