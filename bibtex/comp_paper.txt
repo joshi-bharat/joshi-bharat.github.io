@@ -1,0 +1,6 @@
+@inproceedings{joshi2019,
+  author       = {Bharat Joshi and Brennan Cain and James Johnson and Michail Kalitazkis and Sharmin Rahman and Marios Xanthidis and Alan Hernandez and Nare Karaperyan and Alberto {Quattrini Li} and Nikolaos Vitzilaios and Ioannis Rekleitis},
+  title        = {Experimental Comparison of Open Source Visual-Inertial-Based State Estimation Algorithms in the Underwater Domain},
+  booktitle    = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year	       = {2019},
+}

@@ -43,12 +43,35 @@ layout: default
         {% endif %}
         
              
-        {% if page.citation and page.paperurl %}
-          <p>{{ page.citation }} <a href="{{ page.paperurl }}"><u>{{ page.paperurl }}</u></a></p>
-        {% elsif page.citation %}
-          <p>{{ page.citation }} </p>
+        {% assign replaced_name = site.name | prepend: "<b>" | append: "</b>" %}
+        {% capture citation_raw %}
+          {% if page.citation %}
+            {{ page.citation }}
+          {% elsif page.authors %}
+            {{ page.authors | join: ", " | replace: site.name, replaced_name | strip }}
+          {% endif %}
+        {% endcapture %}
+
+        {% assign citation = citation_raw | strip %}
+
+        {% if citation != "" %}
+          <p>
+          {% if citation != "" and page.paperurl %}
+            {{ citation }}. <a href="{{ page.paperurl }}">Paper</a> {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+          {% elsif citation != "" %}
+            {{ citation }}. {% if page.codeurl %}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+          {% endif %}
+
+          {% if page.bibtex %}
+            <a href="{{ page.bibtex }}">
+              Bibtex
+            </a>
+          {% endif %}
+
+          </p>
         {% endif %}
-    
+
+
         </header>
       {% endunless %}
 
