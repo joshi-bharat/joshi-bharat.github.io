@@ -1,9 +1,11 @@
 ---
 title: DC Motor Speed Control using Encoder Feedback
-meta-description: 'This document describe method to control the speed of DC motor using optical encoder which measures motor speed and provides feedaback to PID Controller.'
-share-img : /img/control_system.png
-comments: true
-tag: [Motor-Control, PID, Mobile-Robot]
+date: 2016-09-12
+permalink: /posts/encoder-feedback
+tags:
+    - motor-control
+    - PID
+    - mobile-robot
 ---
 
 The speed of a DC motor is proportional to the voltage applied to the motor. When using digital control, a pulse-width modulated (PWM) signal is used to generate an average voltage. The motor winding acts as a low pass filter, so a PWM waveform of sufficient frequency will generate a stable current in the motor winding. Though speed is proportional to PWM duty cycle, in systems where precise speed control is required, some sort of feedback mechanism must be included. Optical incremental encoders are widely used to provide position measurements in control systems at fixed sampling frequency. Encoder feedback implemented in combination with PID controller can be used to regulate the DC motor speed in response to load disturbances and noise. PID controller has the ability to eliminate steady-state offsets through integral action, correct present error through proportional action, and it can anticipate the future through derivative action. The objective of a PID controller in a DC motor speed control system is to maintain speed at a given reference value and be able to accept new set point values dynamically.

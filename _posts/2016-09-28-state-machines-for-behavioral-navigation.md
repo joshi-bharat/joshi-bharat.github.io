@@ -1,11 +1,11 @@
 ---
-layout: post
 title: Task Level Control of Robots using Sequence of Behaviors
-subtitle: 'Behavioral Control using State Machines in Robots'
-meta-description: 'Robot tasks can be divided into sequence of behaviors with distinct 					functionalities. This post describes the use of state machines to
-				trigger those behaviors and switch among them.'
-share-img : /img/fsm.jpg
-tag: [Motion-Control, Navigation, Mobile-Robot]
+date: 2016-09-28
+permalink: /posts/control-using-behaviors
+tags: 
+    - motion-control 
+    - navigation
+    - mobile-robot
 ---
 In dynamic environments, task-level control of robots, where we sequence entire behaviors rather than single action, is important. When we have to navigate an unstructured enviroment, then we cannot use simple navigation techniques using maps. We must be able to react to the environmental conditions. Thus, we need to divide the task of navigation in simple behaviors like *goal_seeking*, *obstacle_avoidance*, *follow_wall*, *go_to_charge* etc. But a fully autonomous robot will be expected to select its own
 actions from a larger repertoire of behaviors depending upon the task at hand and the

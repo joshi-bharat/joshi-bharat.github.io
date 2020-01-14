@@ -1,11 +1,10 @@
 ---
-layout: post
 title: Kinematic Analysis of Holonomic Robot
 date: 2016-09-19
 permalink: /posts/holonomic-drive
 tags: 
-    - Mobile-Robot 
-    - Navigation
+    - mobile-robot 
+    - navigation
 ---
 
 A robot that uses omni-wheels can move in any direction, at any angle, without rotating beforehand. Such robots called holonomic robots can spin while translating forward at the same heading. A holonomic robot is one which is able to move instantaneously in any direction in the space of its degrees of freedom.  

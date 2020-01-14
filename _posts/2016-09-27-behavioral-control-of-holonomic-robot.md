@@ -1,12 +1,13 @@
 ---
-layout: post
 title: Goal-Seeking and Obstacle Avoidance Behaviors for Mobile Robot
-subtitle: ''
-meta-description: 'Goal­seeking and obstacle avoidance behaviors are implemented for 						holonomic robot so that it can react to  the changing 
-					environment and provide real­time response to the dynamic environment.'
-share-img : /img/goal_seeking.png
-comments: true
-tag: [Motion-Control, Navigation, Holonomic Robot, PID, Mobile-Robot]
+date: 2016-09-27
+permalink: /posts/behaviors
+tags: 
+    - motion-control 
+    - navigation
+    - holonomic robot
+    - PID
+    - mobile-robot
 ---
 The basic idea of behavior based control is to subdivide the navigation task into small, 
 easy to manage, program and debug behaviors. The world is fundamentally unknown and 

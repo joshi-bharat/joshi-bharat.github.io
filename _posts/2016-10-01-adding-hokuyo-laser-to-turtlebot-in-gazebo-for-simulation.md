@@ -1,11 +1,12 @@
 ---
-layout: post
 title: Adding Hokuyo Laser Finder to Turtlebot in Gazebo Simulation
-subtitle: ''
-meta-description: 'This tutorial presents the steps for adding the Hokuyo laser range 
-				finder (LRF) sensor to TurtleBot, and explains how to write URDF description of the Hokuyo LRF, and how to modify the URDF of the Turtlebot robot to account for the addition of the Hokuyo sensor for Gazebo Simulation.'
-share-img : /img/turtlebot_gazebo.png
-tag: [ROS, Hokuyo-Laser, Turtlebot, Mobile-Robot]
+date: 2016-10-01
+permalink: /posts/adding-hokuyo-lasers
+tags: 
+    - ROS
+    - hokuyo-laser
+    - turtlebot
+    - mobile-robot
 ---
 This tutorial presents the steps for adding the Hokuyo laser range finder (LRF) sensor to TurtleBot, and explains how to write URDF description of the Hokuyo LRF, and how to modify the URDF of the Turtlebot robot to account for the addition of the Hokuyo sensor. Before going through this tutorial, it is highly recommended to have a background on [URDF](http://wiki.ros.org/urdf), and for this you may need to look at [URDF Tutorials](http://wiki.ros.org/urdf/Tutorials).
 
