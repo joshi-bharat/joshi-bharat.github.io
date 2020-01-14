@@ -1,6 +1,7 @@
 ---
 title: Task Level Control of Robots using Sequence of Behaviors
 date: 2016-09-28
+collection: posts
 permalink: /posts/control-using-behaviors
 tags: 
     - motion-control 

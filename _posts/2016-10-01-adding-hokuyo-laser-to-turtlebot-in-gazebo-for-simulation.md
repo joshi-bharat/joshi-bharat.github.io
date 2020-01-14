@@ -1,6 +1,7 @@
 ---
 title: Adding Hokuyo Laser Finder to Turtlebot in Gazebo Simulation
 date: 2016-10-01
+collection: posts
 permalink: /posts/adding-hokuyo-lasers
 tags: 
     - ROS

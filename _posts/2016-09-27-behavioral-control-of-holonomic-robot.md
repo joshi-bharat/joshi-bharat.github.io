@@ -1,6 +1,7 @@
 ---
 title: Goal-Seeking and Obstacle Avoidance Behaviors for Mobile Robot
 date: 2016-09-27
+collection: posts
 permalink: /posts/behaviors
 tags: 
     - motion-control 

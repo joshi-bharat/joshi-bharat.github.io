@@ -1,6 +1,7 @@
 ---
 title: Kinematic Analysis of Holonomic Robot
 date: 2016-09-19
+collection: posts
 permalink: /posts/holonomic-drive
 tags: 
     - mobile-robot 

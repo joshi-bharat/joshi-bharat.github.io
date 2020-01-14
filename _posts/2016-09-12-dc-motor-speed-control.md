@@ -1,6 +1,7 @@
 ---
 title: DC Motor Speed Control using Encoder Feedback
 date: 2016-09-12
+collection: posts
 permalink: /posts/encoder-feedback
 tags:
     - motor-control
