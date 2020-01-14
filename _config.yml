@@ -184,9 +184,12 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
+#  talks:
+#    output: true
+#    permalink: /:collection/:path/
   bibtex:
     output: true
     permalink: /:collection/:path/
@@ -231,22 +234,24 @@ defaults:
       share: true
       comments: true
   # _portfolio
+
+  # _talks
+#  - scope:
+#      path: ""
+#      type: talks
+#    values:
+#      layout: talk
+#      author_profile: true
+#      share: true
+  # _projects
   - scope:
       path: ""
-      type: portfolio
+      type: projects
     values:
       layout: single
       author_profile: true
       share: true
       comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
-      share: true
 
 # Sass/SCSS
 sass:
