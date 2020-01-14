@@ -42,6 +42,4 @@ to nearby obstacles and if the distance to any obstacle is less than distance th
 
 Holonomic robot navigating the dynamic environment using state machines is illustated in the video
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=L2yUD7iAUaE
-" target="_blank"><img src="http://img.youtube.com/vi/L2yUD7iAUaE/0.jpg" 
-alt="complete navigation system" margin="auto" margin-left="100px" width="480" height="360" border="10" /></a>
+<iframe width="480" height="360" src="https://www.youtube.com/embed/L2yUD7iAUaE"></iframe>
