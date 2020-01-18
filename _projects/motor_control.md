@@ -2,7 +2,7 @@
 title: "Modeling, Simulation and Implementation of Brushed DC Motor Speed
 Control Using Optical Incremental Encoder Feedback"
 collection: publications
-permalink: /publications/motor-control
+permalink: /projects/motor-control
 date: 2014-11-10
 venue: 'IOE Graduate Conference'
 paperurl: 'http://conference.ioe.edu.np/ioegc2014/papers/IOE-CONF-2014-66.pdf'
