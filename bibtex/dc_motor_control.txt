@@ -1,0 +1,6 @@
+@inproceedings{Joshi2015ModelingS,
+  title={Modeling , Simulation and Implementation of Brushed DC Motor Speed Control Using Optical Incremental Encoder Feedback},
+  author={Bharat Joshi and Rakesh Shrestha and R. P. Chaudhary},
+  booktitle    = {2015 IOE Graduate Conference},
+  year={2015}
+}
