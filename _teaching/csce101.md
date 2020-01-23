@@ -12,6 +12,6 @@ offerings:
 ---
 
 Worked as an instructor teaching classes, leading lab sections, developing and grading assignments, developing new lab
-sessions, anf holding office hours.
+sessions, and holding office hours.
 
 [Course Website](https://cse.sc.edu/~bjoshi/csce101/csce101.html)
