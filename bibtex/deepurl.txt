@@ -1,0 +1,6 @@
+@inproceedings{joshi2020,
+  author       = {Bharat Joshi and Md Modasshir and Travis Manderson and Hunter Damron and Marios Xanthidis and Alberto {Quattrini Li} and Ioannis Rekleitis and Gregory Dudek},
+  title        = {DeepURL: Deep Pose Estimation Framework for Underwater Relative Localization},
+  booktitle    = {2019 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  year	       = {2020},
+}
